@@ -1,0 +1,40 @@
+l1=[]
+print(l1)
+l1 =['a' , 1 , 2 , 3 , 4]
+for i in l1:
+    print(i)
+l1=list(range(0,5))
+print(l1)
+l1=[10,20,30,40,50,60,70,80]
+print(l1[-1:])
+l1[3:6]=[20,30,200]
+l1[3:5]=[]
+l1[2:2]=[1]
+print(l1)
+l1=[10,20,30,40,50,60,70,80,30,20,50,30,60]
+print(l1.count(30))
+print(l1.index(20))
+print(max(l1))
+print(l1.remove(60))
+print(l1)
+print(l1.append(200))
+print(l1)
+print(l1.insert(5,2))
+print(l1)
+print(l1.pop())
+print(l1.pop(3))
+print(l1)
+print(len(l1))
+print(sum(l1))
+print(l1)
+print(l1.reverse())
+print(l1)
+print(sorted(l1))
+print(l1.sort())
+print(l1)
+l2=l1.copy()
+print(l2)
+temp = list[20,30,40]
+print(l1.extend(temp))
+print(l1.clear())
+print(l1)
